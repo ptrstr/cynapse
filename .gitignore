@@ -1,0 +1,9 @@
+# Visual Studio specific files
+.vs/*
+
+# build stuff
+build/*
+!build/.keep
+
+# documentation
+doc/*

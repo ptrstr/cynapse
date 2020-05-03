@@ -1,14 +1,16 @@
 #include <vector>
 
-class Neuron {
-	private:
-		double bias;
+namespace cynapse {
+	class Neuron {
+		private:
+			double bias;
 
-	public:
-		Neuron();
+		public:
+			Neuron();
 
-		double getBias();
-		void setBias(double newBias);
+			double getBias();
+			void setBias(double newBias);
 
-		double run(std::vector<double> inputs, std::vector<double> weights);
-};
+			double run(std::vector<double> inputs, std::vector<double> weights);
+	};
+}
