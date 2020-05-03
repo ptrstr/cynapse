@@ -1,5 +1,5 @@
 # cynapse
-The C++ port of [synapse](https:/github.com/ptrstr/synapse)
+The C++ port of [synapse](https://github.com/ptrstr/synapse)
 
 ## Building
 
